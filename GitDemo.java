@@ -8,7 +8,6 @@ public class GitDemo {
     public GitDemo() {
         previousNumber = 1;
     }
-    
     /*****
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
@@ -17,7 +16,6 @@ public class GitDemo {
         newNum = num + previousNumber;
         return newNum;
     }
-    
     /*****
      * This function should calculate the factorial of 'num' and return the resulting value.
      * i.e. if num = 4,
@@ -29,7 +27,6 @@ public class GitDemo {
         for(int i = 1; i <= num; ++i){
             factorialNumber = factorialNumber * i;
         }
-        
         return factorialNumber;
     }
     
@@ -45,9 +42,7 @@ public class GitDemo {
             double temp = num % 10;
             newNumber = newNumber * 10 + temp;
             num /= 10;
-
         }
-        
         return newNumber;
     }
     
